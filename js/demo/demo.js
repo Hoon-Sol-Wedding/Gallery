@@ -93,38 +93,34 @@ $(function () {
   blueimp.Gallery(
     [
       {
-        title: 'Sintel',
-        type: 'video',
-        sources: [
-          {
-            type: 'video/webm',
-            src:
-              'https://upload.wikimedia.org/wikipedia/commons/f/f1/' +
-              'Sintel_movie_4K.webm'
-          },
-          {
-            type: 'video/mp4',
-            src: 'https://archive.org/download/Sintel/sintel-2048-surround.mp4'
-          },
-          {
-            type: 'video/ogg',
-            src: 'https://archive.org/download/Sintel/sintel-2048-stereo.ogv'
-          }
-        ],
-        poster:
-          'https://upload.wikimedia.org/wikipedia/commons/d/dc/' +
-          'Sintel_1920x1080.png'
+          title: 'g1',
+          href="img/g1-1024w.jpg",
+          srcset:
+            'img/g1-800w.jpg 800w,' +
+            'img/g1-1024w.jpg 1024w,' +
+            'img/g1-1600w.jpg 1600w',
+          sizes: '(min-width: 990px) 990px, 100vw',
+          thumbnail: 'img/g1-1600w.jpg'
       },
       {
-        title: 'LES TWINS - An Industry Ahead',
-        type: 'text/html',
-        youtube: 'zi4CIXpx7Bg'
+          title: 'g1',
+          href="img/g1-1024w.jpg",
+          srcset:
+            'img/g1-800w.jpg 800w,' +
+            'img/g1-1024w.jpg 1024w,' +
+            'img/g1-1600w.jpg 1600w',
+          sizes: '(min-width: 990px) 990px, 100vw',
+          thumbnail: 'img/g1-1600w.jpg'
       },
       {
-        title: 'KN1GHT - Last Moon',
-        type: 'text/html',
-        vimeo: '73686146',
-        poster: 'https://secure-a.vimeocdn.com/ts/448/835/448835699_960.jpg'
+          title: 'g1',
+          href="img/g1-1024w.jpg",
+          srcset:
+            'img/g1-800w.jpg 800w,' +
+            'img/g1-1024w.jpg 1024w,' +
+            'img/g1-1600w.jpg 1600w',
+          sizes: '(min-width: 990px) 990px, 100vw',
+          thumbnail: 'img/g1-1600w.jpg'
       }
     ],
     {
